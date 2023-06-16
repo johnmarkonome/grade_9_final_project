@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.containers{
+    width: 100%;
+    height: 100vh;
+    font-family: 'poppins',sans-serif;
+    background-image: url(picture/th\ \(1\).jfif);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    width: 90%;
+    max-width: 440px;
+    color: #fff;
+    text-align: center;
+    padding: 2% ;
+    border: 1px solid rgba(255,255,255,0.3);
+}
+
+.card img{
+    width="150"
+    height="200"
+    border-radius: 100%;
+}
+
+.card h2{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.card p{
+font-size: 18px;
+margin: 10px auto;
+max-width: 330px;
+}
+
+section{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(226, 237, 247);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: montserrat;
+    box-shadow: 0px 0px 20px black;
+    background-color: rgb(231, 231, 231);
+    border-radius: 8px;
+}
+
+.form-group{
+    width:100% ;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.form-group input
+.form-group textarea{
+    width: 100%;
+    padding: 10px;
+    font-size:18px;
+    border: 1px solid  rgb(161, 161, 161);
+    margin-top: 5px;
+}
+table{
+    width: 400px;
+}
+
+th{
+    text-align: left;
+}
+
+table,th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+.on input{
+    background-color: #ddd;
+    width: 200px;
+}
+
+tr,td,input{
+    background-color: #fff;
+    width: 200px;
+}
+
+.on,td{
+    background-color: #ddd;
+}
